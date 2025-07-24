@@ -24,6 +24,7 @@ html{
 body{
     background:var(--bg-color);
     color:var(--text-color);
+    overflow-x: hidden;
 }
 section{
     min-height: 100vh;
@@ -254,6 +255,7 @@ transition: 0.3s ease;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 3rem;
+    justify-content: center;
 }
 
 /* Skill Box Card */
@@ -265,6 +267,7 @@ transition: 0.3s ease;
     border: 0.3rem solid var(--bg-color);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     transition: all 0.4s ease;
+    max-width: 320px;
 }
 
 .skills-box:hover {
